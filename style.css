@@ -1,0 +1,48 @@
+body{
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  color: #515076;
+  
+}
+
+.title {
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 78px;
+  margin: 0;
+  text-align:center;
+  color: #515076;
+}
+
+.producty-list {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+}
+
+.product-purpose{
+  font-size: 12px;
+  line-height: 24px;
+  margin-top: 20px;
+  color: #A5A3B9
+  
+} 
+
+ul {
+    list-style: none;
+}
+
+ul li li {
+    list-style: circle;
+    padding: 2px;
+    font-size: 12px;
+}
+
+.card-background {
+    background-color: #F7F7FA;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 408px;
+    border-radius: 10px;
+}
+span {white-space: nowrap;}
