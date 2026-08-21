@@ -1,11 +1,14 @@
 *,
 *::after
 *::before
-
+*{
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
 body {
-  font-family: Arial, sans-serif;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-size: 13px;
   box-sizing: border-box;
+  margin: 0;
 }
 
 .ointment-title {
@@ -16,20 +19,10 @@ body {
   color: #515076;
 }
 
-.producty-list {
-  list-style-type: none;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  color: #515076;
-  justify-content: space-around;
-  width: 1270px;
-  height: 1318px;
-}
 
 .producty-ploto {
-  width: 330px;
-  height: 285px;
+  width: 290px;
+  height: 245px;
   display: block;
 }
 
@@ -37,10 +30,8 @@ body {
 .card-background {
   background-color: #F7F7FA;
   padding: 25px;
-  margin-bottom: 20px;
-  border-radius: 10px;
-  width: 335px;
-  height: 573px;
+  width: 340px;
+  box-sizing: border-box
 }
 
 .for-skin-type {
@@ -51,6 +42,16 @@ body {
   text-transform: uppercase;
   display: inline-block;
   margin-top: 30px;
+}
+
+.purpose {
+  font-size: 20px;
+  margin:  0;
+  margin-top: 5px;
+}
+.property {
+margin-top: 5px;
+
 }
 
 .producty-compound {
@@ -70,10 +71,27 @@ body {
 }
 
 .backgroundimg {
-  background-image: url('/images/dandelions.jpg');
+  background-image: url(images/dandelions.jpg);
   background-size: no-repeat;
   background-position: center;
   background-size: cover;
   width: 790px;
   height: 800px;
+}
+
+.producty-list {
+  list-style-type: none;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45px;
+  color: #515076;
+  justify-content: center;
+  width: 1245px;
+  padding: 0;
+}
+
+.main {
+  padding-top: 1px;
+  box-sizing:border-box;
 }
