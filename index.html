@@ -3,116 +3,153 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Product </title>
-  <link rel="stylesheet" href="style.css">
-
+  <title>Product</title>
+  <link rel="stylesheet" href="stele/style.css">
+  <link rel="stylesheet" href="stele/clear-list">
+  <link rel="stylesheet" href="stele/compound.css">
+  <link rel="stylesheet" href="stele/title.css">
+  <link rel="stylesheet" href="stele/card.css">
+  <link rel="stylesheet" href="stele/products.css">
+  <link rel="stylesheet" href="stele/container.css">
+  <link rel="stylesheet" href="stele/catalog.css">
 </head>
+
 <body>
-  <h1 class="title">Выбери свой продукт</h1>
+  <main class="catalog catalog__container">
+    <div class="container" >
+      <h1 class="title catalog__title">Выбери свой продукт</h1>
+      <ul class="products clear-list">
+        <li class="products__item card">
+          <img class="card__image"
+            src="images/mycc.jpg"
+            alt="Товар - увляжняюший мусс, в маленькой - стеклянный боночке"/>
+          <span class="card__category">для нормальной кожи</span>
+          <h1 class="card__name">Увляжняющий мусс</h1>
 
-  <ul class="producty-list">
-    <li class="card-background">
-      <img src="images/Mycc.jpg" alt="Товар - увляжняюший мусс, в маленькой - стеклянный боночке" width="400"/>
+          <div  class="card__description">
+            <p>Глубоко увлажняют кожу лица, оставляя её мягкой и гладкой.</p>
+          </div>
 
-      <span class="product-purpose">для нормальной кожи </span>
-      <h1>Увляжняющий мусс</h1>
-      <p>Глубоко увлажняют кожу лица, оставляя её мягкой и гладкой.</p>
+          <div class="card__compound compound">
+            <span class="compaund__name">Состав:</span>
+            <ul class="compound__list">
+              <li>активные натуральные комплексы</li>
+               <li>витамины С, А, РР, В И Е</li>
+              <li>солнцезащитные компоненты</li>
+            </ul>
+          </div>
 
-      <span>Состав:</span>
+          <div class="card__price">
+            <b>Цена</b>
+            <span>2 750 ₽</span>
+          </div>
+        </li>
 
-      <ul>
-        <li>активные натуральные комплексы</li>
-        <li>витамины С, А, РР, В И Е</li>
-        <li>солнцезащитные компоненты</li>
+        <li class="products__item card">
+          <img class="card__image"
+            src="images/mack.jpg"
+            alt="Товар - увляжняющюя маска, в стекляной баночке" width="400"/>
+          <span class="card__category">для нормальной кожи</span>
+          <h1 class="card__name">Увляжняющий маска</h1>
+
+          <div class="card__description">
+            <p class="property">Способствует удерживанию влаги в верхних слоях кожи.</p>
+          </div>
+
+          <div class="card__compound compound">
+            <span class="compaund__name">Состав:</span>
+            <ul class="compound__list">
+             <li>воски</li>
+             <li>минералы</li>
+             <li>масла</li>
+            </ul>
+          </div>
+
+          <div class="card__price">
+            <b>Цена</b>
+            <span>3 500 ₽</span>
+          </div>
+        </li>
+
+        <li class="products__item card">
+          <img class="card__image"
+            src="images/gell.jpg"
+            alt="Товар - гель для умывания, в маленькой - стеклянный боночке"/>
+          <span class="card__category">для нормальной кожи</span>
+          <h1 class="card__name">Гель для умывания</h1>
+
+          <div class="card__description">
+            <p class="property">Интенсивно очищает, не повреждает защитный барьер кожи.</p>
+          </div>
+
+          <div class="card__compound compound">
+            <span class="compaund__name">Состав:</span>
+            <ul class="compound__list">
+              <li>минералы</li>
+              <li>витамины С, А, РР, В И Е</li>
+              <li>солнцезащитные компоненты</li>
+            </ul>
+          </div>
+
+          <div class="card__price">
+            <b>Цена</b>
+            <span>1 650 ₽</span>
+          </div>
+        </li>
+
+        <li class="products__item card">
+          <img class="card__image"
+            src="images/Padarok1.jpg"
+            alt="Товары - увляжняющюя крем и маска, две стекляной баночки, разный размаров"/>
+          <span class="card__category">для нормальной кожи</span>
+          <h1 class="card__name">Подарочный набор №1</h1>
+
+          <div class="card__description">
+            <p class="property">Набор, состоящий из увлажняющего крема и маски.</p>
+          </div>
+
+          <div class="card__compound compound">
+            <span class="compaund__name">Состав:</span>
+            <ul class="compound__list">
+              <li>воски</li>
+              <li>минералы</li>
+              <li>масла</li>
+            </ul>
+          </div>
+
+          <div class="card__price">
+            <b>Цена</b>
+            <span>4 750 ₽</span>
+          </div>
+        </li>
+
+        <li class="products__item card">
+          <img class="card__image"
+            src="images/Padarok5.jpg"
+            alt="Четыри товара -  крем, маска, мусс и гель для умывания"/>
+          <span class="card__category">для нормальной кожи</span>
+          <h1 class="card__name">Подарочный набор №5</h1>
+
+          <div class="card__description">
+            <p class="property">Весь набор средств Invisible symphony, крем, маска, мусс и гель для умывания.</p>
+          </div>
+
+          <div class="card__compound compound">
+            <span class="compaund__name">Состав:</span>
+            <ul class="compound__list">
+              <li>воски</li>
+              <li>минералы</li>
+              <li>масла</li>
+            </ul>
+          </div>
+
+          <div class="card__price">
+            <b>Цена</b>
+            <span>7 520 ₽</span>
+          </div>
+        </li>
       </ul>
-
-      <b>Цена</b>
-      <span>2 750 ₽</span>
-    </li>
-
-
-
-    <li class="card-background">
-      <img src="images/mack.jpg" alt="Товар - увляжняющюя маска, в стекляной баночке" width="400"/>
-
-      <span class="product-purpose">для нормальной кожи</span>
-      <h1>Увляжняющий маска</h1>
-      <p>Способствует удерживанию влаги в верхних слоях кожи.</p>
-
-      <span>Состав:</span>
-
-      <ul>
-        <li>воски</li>
-        <li>минералы</li>
-        <li>масла</li>
-      </ul>
-
-      <b>Цена</b>
-      <span>3 500 ₽</span>
-    </li>
-
-
-
-    <li class="card-background">
-      <img src="images/gell.jpg" alt="Товар - гель для умывания, в маленькой - стеклянный боночке" width="400"/>
-
-      <span class="product-purpose">для нормальной кожи</span>
-      <h1>Гель для умывания</h1>
-      <p>Интенсивно очищает, не повреждает защитный барьер кожи.</p>
-
-      <span>Состав:</span>
-
-      <ul>
-        <li>минералы</li>
-        <li>витамины С, А, РР, В И Е</li>
-        <li>солнцезащитные компоненты</li>
-      </ul>
-
-      <b>Цена</b>
-      <span>1 650 ₽</span>
-    </li>
-
-
-
-    <li class="card-background">
-      <img src="images/Padarok1.jpg" alt="Товары - увляжняющюя крем и маска, две стекляной баночки, разный размаров" width="400"/>
-
-      <span class="product-purpose">для нормальной кожи</span>
-      <h1>Подарочный набор №1</h1>
-      <p>Набор, состоящий из увлажняющего крема и маски.</p>
-
-      <span>Состав:</span>
-
-      <ul>
-        <li>воски</li>
-        <li>минералы</li>
-        <li>масла</li>
-      </ul>
-
-      <b>Цена</b>
-      <span>4 750 ₽</span>
-    </li>
-
-
-
-    <li class="card-background">
-      <img src="images/Padarok5.jpg" alt="Четыри товара -  крем, маска, мусс и гель для умывания " width="400"/>
-
-      <span class="product-purpose">для нормальной кожи</span>
-      <h1>Подарочный набор №5</h1>
-      <p>Весь набор средств Invisible symphony, крем, маска, мусс и гель для умывания.</p>
-
-      <span>Состав:</span>
-
-      <ul>
-        <li>воски</li>
-        <li>минералы</li>
-        <li>масла</li>
-      </ul>
-
-      <b>Цена</b>
-      <span>7 520 ₽</span>
-    </li>
-  </ul>
+    </div>
+  </main>
 </body>
 </html>

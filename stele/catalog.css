@@ -1,0 +1,12 @@
+.catalog__container {
+  background-image: url(../images/dandelions.png);
+  background-repeat: no-repeat;
+  background-position: 39% 0;
+  padding-top: 170px;
+  background-size: 790px 697px;
+}
+
+.catalog__title{
+  margin-bottom: 50px;
+  margin-top: 0px;
+}
