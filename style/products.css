@@ -1,0 +1,14 @@
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 45px;
+  color: #515076;
+  list-style-type: none;
+}
+
+.products__item {
+  width: 340px;
+  height: 573px;
+}
+
