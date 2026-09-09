@@ -45,3 +45,11 @@ function outputConsoleLog(message) {
   alert(message)
   console.log(message)
 }
+
+//вывод тайтла в лог
+
+const outputLogTitle = document.querySelector('.catalog__title');
+
+outputLogTitle.addEventListener('mouseover', () => {
+  console.log(outputLogTitle.textContent)
+});
