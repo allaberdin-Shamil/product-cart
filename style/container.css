@@ -2,3 +2,15 @@
   width: 1185px;
   margin: 0 auto;
 }
+
+.container__button {
+  color: #515076;
+  background-color: #F7F7FA;
+  font-size: 16px;
+  margin-left: 26px;
+  margin-bottom: 50px; 
+  padding: 15px 10px 15px 10px;
+  border-radius: 12%;
+  border: none;
+  font-weight: bold;
+}

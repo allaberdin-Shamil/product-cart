@@ -2,11 +2,11 @@
   background-image: url(../images/dandelions.png);
   background-repeat: no-repeat;
   background-position: 15% 0;
-  padding-top: 170px;
+  padding-top: 120px;
   background-size: 790px 697px;
 }
 
-.catalog__title{
+.catalog__title {
   margin-bottom: 50px;
   margin-top: 0px;
 }
