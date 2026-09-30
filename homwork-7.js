@@ -13,7 +13,9 @@ const compareSpeed = (speed) => {
   else if (speed < SPEED_OF_LIGHT) {
     return "Субсветовая скоррость";
   } 
-  else {"Скорость света"}
+  else {
+    return "Скорость света";
+  }
 }
 
 console.log(compareSpeed(299792459));
@@ -26,4 +28,4 @@ const canPurchase = (current_budget) => {
   return result;
 }
 
-console.log(canPurchase(20000)); 
+console.log(canPurchase(20000));
