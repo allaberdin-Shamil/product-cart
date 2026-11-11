@@ -10,7 +10,6 @@ function getCartsCount() {
     if (answer === null) {
       return null
     }
-
     const number = Number(answer);
     if (Number.isInteger(number) && number >0 && number <=5){
       count = number;
@@ -23,9 +22,7 @@ function getCartsCount() {
   return count;
 }
 
-
 function renderCartds(products) {
-
   products.forEach(product => {
     const productClone = templateProducts.content.cloneNode(true);
     productClone.querySelector('.products-type').textContent = product.type;
@@ -50,7 +47,6 @@ const productsInfo = products.reduce((result, product) => {
   result.push({
     [product.name]: product.effect,
   });
-
   return result;
 }, []);
 
